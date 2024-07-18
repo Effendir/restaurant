@@ -15,7 +15,7 @@ module.exports = {
     filename: '[name].bundle.js',
     clean: true,
   },
-  devtool: 'eval-source-map',
+  devtool: 'source-map',
   devServer: {
     static: './dist',
   },
